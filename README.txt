@@ -1,4 +1,16 @@
 ================================================================================================== Installation Instruction =========================
+git clone https://github.com/makelepe/shoppingbasket.git to your local workstation (assuming to shoppingbasket folder)
+cd to shoppingbasket folder and run:
+	- mvn clean install
+and 
+	- mvn spring-boot:run 
+	
+This should run the service
+
+Alternatively:
+copy target/shoppingbasket-0.0.1-SNAPSHOT.jar to your prefarred location and run as below
+
+java -jar target/shoppingbasket-0.0.1-SNAPSHOT.jar
 
 
 
